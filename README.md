@@ -1,5 +1,5 @@
 # Audacity
-This bash script will run the Audacity audio editor in a Docker container.
+[This bash script](https://github.com/knickers/audacity/blob/master/run.sh) will run the Audacity audio editor in a Docker container.
 
 If you're using pulseaudio for sound, you need to also configure ALSA to work properly.
 
