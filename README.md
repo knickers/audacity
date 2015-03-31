@@ -8,9 +8,6 @@ Dynamically enable/disable pulseaudio:
 Change the default sound device:
 - http://superuser.com/a/630356
 
-	#!/bin/bash
-	set -e
-	
 	docker run --rm \
 		-u $(id -u):$(id -g) \
 		-v /tmp/.X11-unix:/tmp/.X11-unix:ro \
