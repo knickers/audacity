@@ -8,6 +8,9 @@ Dynamically enable/disable pulseaudio
 Change the default sound device
 - http://superuser.com/a/630356
 
+The run command is available as a shell script
+- [https://raw.githubusercontent.com/knickers/audacity/master/run.sh](https://raw.githubusercontent.com/knickers/audacity/master/run.sh)
+
 Here is the run command
 
 	docker run --rm \
