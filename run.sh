@@ -10,4 +10,4 @@ docker run --rm \
 	-e DISPLAY="unix$DISPLAY" \
 	-e HOME \
 	$(find /dev/snd/ -type c | sed 's/^/--device /') \
-	knickers/audacity
+	knickers/audacity "$@"
